@@ -1,0 +1,65 @@
+.indent {
+  color: white;
+  margin-left: 100px;
+}
+
+#titulo {
+  color: white;
+  margin-left: 100px;
+  margin-top: 100px;
+  font-style: bold;
+}
+
+.a {
+  display: block;
+  padding: 20px;
+  color: #fff;
+  text-decoration: none;
+  transition: background-color 0.5s;
+}
+
+html body {
+  background-color: rgba(0, 0, 0, 0.699);
+}
+html body header {
+  background: rgba(0, 0, 0, 0.438);
+  width: 100%;
+  position: fixed;
+  z-index: 100;
+}
+html body header nav {
+  float: left;
+}
+html body header nav ul {
+  list-style: none;
+  overflow: hidden;
+}
+html body header nav ul li {
+  float: left;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+}
+html body header nav ul li a {
+  display: block;
+  padding: 20px;
+  color: #fff;
+  text-decoration: none;
+  transition: background-color 0.5s;
+}
+html body header nav ul li a:hover {
+  text-decoration: none;
+  background-color: #eca023;
+}
+html body h1 {
+  color: white;
+  margin-left: 100px;
+  margin-top: 100px;
+  font-style: bold;
+}
+html body h4 {
+  color: white;
+  margin-left: 100px;
+}
+html img {
+  margin-left: 100px;
+}/*# sourceMappingURL=styles.css.map */

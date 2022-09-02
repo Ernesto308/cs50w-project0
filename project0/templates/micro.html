@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Electrónica Básica</title>
+    <link rel="stylesheet" href="..\static\css\styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class = "row">
+        <div class="col-8">
+            <header>
+                <nav>
+                    <ul>
+                        <li> <a href="../index.html">Inicio</a></li>
+                        <li> <a href="basicos.html">Componentes básicos</a></li>
+                        <li> <a href="micro.html">Microcontroladores</a></li>
+                        <li> <a href="recursos.html">Recursos</a></li>
+                    </ul>
+                </nav>
+            </header>
+
+            <h1 id="titulo">¿Qué es un Microcontrolador?</h1>
+            <p class="indent" style="padding-bottom: 30px">
+                El Microcontrolador es un circuito integrado que es el componente principal de una aplicación embebida. 
+                Es como una pequeña computadora que incluye sistemas para controlar elementos de entrada/salida. También incluye 
+                a un procesador y por supuesto memoria que puede guardar el programa y sus variables (flash y RAM).  
+                Funciona como una mini PC. Su función es la de automatizar procesos y procesar información.<br></br>
+
+                El microcontrolador se aplica en toda clase de inventos y productos donde se requiere seguir un proceso automático 
+                dependiendo de las condiciones de distintas entradas.
+
+                A veces denominados controlador integrado o unidad de microcontrolador (MCU), los microcontroladores se encuentran en 
+                vehículos, robots, máquinas de oficina, dispositivos médicos, transceptores de radio móviles, máquinas expendedoras y 
+                electrodomésticos, entre otros dispositivos. Son esencialmente computadoras personales (PC) en miniatura simples diseñadas 
+                para controlar pequeñas funciones de un componente más grande, sin un complejo sistema operativo (SO) de interfaz de usuario.
+            </p>
+
+            <h2>Elementos de un microcontrolador</h2>
+
+            <p class="indent" style="padding-bottom: 30px">
+                Un microcontrolador al menos tendrá:
+            </p>
+
+            <ul class="indent">
+                <li><b>Microprocesador (CPU):</b> se puede pensar en un procesador como el cerebro del dispositivo. Procesa y responde a varias 
+                    instrucciones que dirigen la función del microcontrolador. Esto implica realizar operaciones básicas de aritmética, lógica y E / S.<br></br></li> 
+                <li><b>Periféricos (unidades de entrada/salida E/S):</b> los dispositivos de entrada y salida son la interfaz del procesador al mundo exterior. 
+                    Los puertos de entrada reciben información y la envían al procesador en forma de datos binarios. El procesador recibe esos datos y 
+                    También realiza operaciones de transferencia de datos, que comunican comandos a otros componentes en el sistema integrado más grande.
+                    envía las instrucciones necesarias a los dispositivos de salida que ejecutan tareas externas al microcontrolador.<br></br></li>
+                <li><b>Memoria:</b> la memoria de un microcontrolador se usa para almacenar los datos que el procesador recibe y usa para responder a las 
+                    instrucciones que ha sido programado para llevar a cabo. Un microcontrolador tiene dos tipos de memoria principales:<br></br>
+                    1. Memoria de programa, que almacena información a largo plazo sobre las instrucciones que lleva a cabo la CPU. La memoria 
+                    del programa es una memoria no volátil, lo que significa que retiene información a lo largo del tiempo sin necesidad de una fuente de alimentación.<br></br>                    
+                    2. Memoria de datos, necesaria para el almacenamiento temporal de datos mientras se ejecutan las instrucciones. La memoria de 
+                    datos es volátil, lo que significa que los datos que contiene son temporales y solo se mantienen si el dispositivo está conectado a una fuente de alimentación.</li>
+            </ul>
+            <img src="..\static\images\Microcontrolador.webp" width="50%">
+
+            <h2>¿Cómo funciona un microcontrolador?</h2>
+
+            <p class="indent" style="padding-bottom: 30px">
+                Un microcontrolador está integrado dentro de un sistema para controlar una función singular en un dispositivo. 
+                Lo hace interpretando los datos que recibe de sus periféricos de E / S utilizando su procesador central. La información temporal 
+                que recibe el microcontrolador se almacena en su memoria de datos, donde el procesador accede a ella y utiliza instrucciones 
+                almacenadas en su memoria de programa para descifrar y aplicar los datos entrantes. Luego usa sus periféricos de E / S para comunicarse 
+                y realizar la acción apropiada.
+            </p>
+            
+            <h2>Fabricantes de microcontroladores</h2>
+            <img src="..\static\images\fabricantes.png" width="50%">
+            <p class="indent" style="padding-bottom: 30px">
+                <br></br><i>Microchip Technology</i>, denominada comúnmente <i>Microchip</i> es una de las empresas líderes en la fabricación de microcontroladores. 
+                Para esta empresa, los microcontroladores se conocen con el apodo «PIC». Estos microcontroladores poseen bajos costos, desempeño eficiente, 
+                gran documentación y una fácil adquisición de los kit de desarrollo.
+            </p>
+            <img src="..\static\images\micro-pic.png" width="50%">
+            <p class="indent" style="padding-bottom: 30px">
+                <i>Atmel</i>, otra empresa líder en este campo es famosa por crear los microcontroladores sobre los que se basan los <i>Arduinos</i>. Existen otras alternativas, 
+                ofrecidas por empresas como Texas Instruments, Freescale, entre otras. Sus productos pueden ser encontrados en tiendas de electrónica, 
+                aunque no siempre se consiguen fácilmente por lo que podemos acudir a las ventas por internet para obtenerlos.
+            </p>
+            <img src="..\static\images\arduino-uno.jpg" width="50%">
+
+            <p class="indent" style="padding-bottom: 30px">
+                En la siguiente tabla se mostrarán algunos ejemplos de microcontroladores hechos por los distintos fabricantes:
+            </p>
+            <table class="indent table table-bordered border border-primary">
+                <tbody>
+                    <tr>
+                        <th>Microchip</th>
+                        <th>Atmel</th>
+                        <th>Freescale</th>
+                        <th>Texas Instruments</th>
+                    </tr>
+                    <tr>
+                        <td>PIC12F675</td>
+                        <td>ATmega328p</td>
+                        <td>MCF51QE128</td>
+                        <td>MSP430FR596x</td>
+                    </tr>
+                    <tr>
+                        <td>PIC16F877A</td>
+                        <td>ATmega2560</td>
+                        <td>HC908</td>
+                        <td>MSP430</td>
+                    </tr>
+                    <tr>
+                        <td>PIC18F4550</td>
+                        <td>ATmega64</td>
+                        <td>MC68HC908</td>
+                        <td>TMS320F2808</td>
+                    </tr>
+                </tbody>
+            </table>
+
+        </div>
+        <div class="col-4">
+        </div>  
+    </div>
+</body>
+
+ </html>
