@@ -10,14 +10,35 @@
   font-style: bold;
 }
 
-.a {
+li > a[href] {
   display: block;
   padding: 20px;
-  color: #fff;
+  color: white;
   text-decoration: none;
   transition: background-color 0.5s;
 }
 
+a:hover[href] {
+  text-decoration: none;
+  background-color: #eca023;
+  color: white;
+}
+
+h3, h2 {
+  color: white;
+  margin-left: 100px;
+}
+
+img {
+  margin-left: 100px;
+}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  [class*=col-8] {
+    width: 100%;
+  }
+}
 html body {
   background-color: rgba(0, 0, 0, 0.699);
 }
@@ -39,17 +60,6 @@ html body header nav ul li {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 20px;
 }
-html body header nav ul li a {
-  display: block;
-  padding: 20px;
-  color: #fff;
-  text-decoration: none;
-  transition: background-color 0.5s;
-}
-html body header nav ul li a:hover {
-  text-decoration: none;
-  background-color: #eca023;
-}
 html body h1 {
   color: white;
   margin-left: 100px;
@@ -58,8 +68,5 @@ html body h1 {
 }
 html body h4 {
   color: white;
-  margin-left: 100px;
-}
-html img {
   margin-left: 100px;
 }/*# sourceMappingURL=styles.css.map */
